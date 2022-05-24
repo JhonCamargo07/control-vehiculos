@@ -34,7 +34,7 @@
                 $insert->bindParam(':rol', $this->rol);
                 return $insert->execute();
             }else{
-                return 'existe';
+                echo "<script>alert('El usuario ya existe, pruebe con otro')</script>";
             }
         }
 

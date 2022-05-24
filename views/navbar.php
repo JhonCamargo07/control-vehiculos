@@ -9,9 +9,6 @@
                     <li class="nav-item">
                         <a class="nav-link active fw-bold m-1 text-dark" aria-current="page" href="">Inicio</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link m-1 text-dark" aria-current="page" href="#">Link</a>
-                    </li>
                     <?php
                         if($_SESSION['datos']['rol_usuario'] == 3){
                     ?>
@@ -22,14 +19,14 @@
                             <li><a class="dropdown-item text-dark" href="../comprador">Comprador</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-1 text-dark" aria-current="page" href="" data-toggle="modal" data-target="#editarPerfilModal">Editar perfil</a>
+                    </li>
 
                     <?php
                         }
                     ?>
 
-                    <li class="nav-item">
-                        <a class="nav-link m-1 text-dark" aria-current="page" href="#">Home</a>
-                    </li>
                     <li class="nav-item">
                         <a class="btn btn-primary text-white m-1 fw-bolder" aria-current="page" href="../../controllers/logout.php">Cerrar sesion</a>
                     </li>

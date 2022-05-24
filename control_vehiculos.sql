@@ -59,7 +59,7 @@ ADD CONSTRAINT usuario_vehiculo_FK
 FOREIGN KEY (id_usuario_vendedor_FK)
 REFERENCES usuario(id_usuario);
 
-select * from vehiculo;
+select * from usuario;
 
 -- Insertar
 
@@ -71,8 +71,19 @@ INSERT INTO categoria (nombre_categoria) VALUES ('Campero'), ('Automóvil'), ('C
 
 INSERT INTO datos_personales VALUES(null, 'Jhon Alexander', 'Camargo Cadena', '1014737507', 'jhoncamargo07@gmail.com', '3144781527', 1),
 (null, 'Alexander', 'Cadena', '1014737508', 'alexander@gmail.com', '3142577567', 2),
-(null, 'Jhon Alexander', 'Camargo Cadena', '1014737507', 'jhoncamargo07@gmail.com', '3144781527', 1);
+(null, 'Jacc', 'Hernandez', '1014737509', 'jacc@gmail.com', '3132260083', 3);
 
 select * from vehiculo inner join categoria on id_categoria = id_categoria_FK where id_categoria = 2;
 
-SELECT * FROM datos_personales;
+SELECT * FROM datos_personales INNER JOIN usuario ON id_usuario = id_usuario_FK WHERE id_usuario = 1;
+
+-- DROP TRIGGER insertarDatosDeUsuario;
+
+Delimiter $$
+CREATE TRIGGER insertarDatosDeUsuario
+AFTER INSERT on usuario
+FOR EACH ROW
+BEGIN
+	INSERT INTO datos_personales VALUES (null, 'Desconocido', 'Desconocido', 'Desconocido', 'Desconocido', 'Desconocido', NEW.id_usuario);
+END $$
+DELIMITER ;

@@ -26,7 +26,7 @@
         }
 
         public function login(){
-            $query = $this->pdo->prepare('SELECT * FROM usuario WHERE BINARY nombre_usuario = :usuario');
+            $query = $this->pdo->prepare('SELECT * FROM datos_personales INNER JOIN usuario ON id_usuario = id_usuario_FK WHERE BINARY nombre_usuario = :usuario');
             $query->bindParam(':usuario', $this->user);
             $query->execute();
 
