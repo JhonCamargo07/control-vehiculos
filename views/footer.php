@@ -4,29 +4,29 @@
             <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
                 <!-- Left -->
                 <div class="me-5 d-none d-lg-block">
-                    <span>Get connected with us on social networks:</span>
+                    <span>Conéctate con nosotros en las redes sociales:</span>
                 </div>
                 <!-- Left -->
 
                 <!-- Right -->
                 <div>
-                    <a href="" class="me-4 text-reset">
+                    <a href="https://www.facebook.com/jhonalex.camargo.902/" target="_blank" class="me-4 text-reset">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="" class="me-4 text-reset">
+                    <a href="https://twitter.com/JhonCamargo21" target="_blank" class="me-4 text-reset">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="" class="me-4 text-reset">
+                    <a href="http://jhoncamargo.000webhostapp.com" target="_blank" class="me-4 text-reset">
                         <i class="fab fa-google"></i>
                     </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-instagram"></i>
+                    <a href="http://jhoncamargo.000webhostapp.com" target="_blank" class="me-4 text-reset">
+                        <i class="fas fa-globe"></i>
                     </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/jhon-alexander-camargo-cadena/" target="_blank" class="me-4 text-reset">
+                        <i class="fab fa-linkedin text-decoration-none"></i>
                     </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-github"></i>
+                    <a href="https://github.com/JhonCamargo07/" target="_blank" class="me-4 text-reset">
+                        <i class="fab fa-github text-decoration-none"></i>
                     </a>
                 </div>
                 <!-- Right -->
@@ -42,7 +42,7 @@
                         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                             <!-- Content -->
                             <h6 class="text-uppercase fw-bold mb-4">
-                                <i class="fas fa-car me-3"></i>Company name
+                                <i class="fas fa-car me-3"></i>Control vehiculos JAC<span class="text-primary">.</span>
                             </h6>
                             <p>
                                 Here you can use rows and columns to organize your footer content. Lorem ipsum
