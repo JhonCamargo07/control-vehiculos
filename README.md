@@ -2,6 +2,6 @@
 
 Programa para el control de vehiculos, registro y muestra de estos.
 
-**Previsuaizacion**
+**Previsualizacion**
 
-![Index del vendedor](visualizacion.png)
+![Index del compradoe](visualizacion.png)
