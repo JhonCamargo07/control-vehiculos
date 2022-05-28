@@ -88,7 +88,7 @@
                                         }
                                     ?>
                                 </select>
-                                <label class="form-label" for="form6Example5">Estado <span class="text-danger">*</span></label>
+                                <label class="form-label" for="form6Example5">Categoria <span class="text-danger">*</span></label>
                             </div>
 
                             <div class="text-center mb-5">
